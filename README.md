@@ -38,6 +38,7 @@ The cookiecutter will create a directory for your app with the name you answered
 deactivate cookiecutter virtual env, cd into the newly create directory for the application.
 
 Create a virtualenv for your *newly* created app
+
 ```
 mkvirtualenv --python=/path/to/required/python/version [appname]
 ```
@@ -47,11 +48,18 @@ Install python requirements.
 pip install -r requirements/dev.txt
 ```
 
-Once that this all done you can:
+Set some environment variables. The following is required. Add as needed.
+
 ```
-source environment.sh
+export SETTINGS='config.DevelopmentConfig'
+```
+
+Once that this all done you can:
+
+```
 python manage.py server
 ```
+
 and have a look at http://localhost:8000
 
 
