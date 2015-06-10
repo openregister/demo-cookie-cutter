@@ -16,10 +16,16 @@ mkvirtualenv cookiecutter
 pip install cookiecutter
 ```
 
-then run:
+Clone the repo and then run cookiecutter with the directory you checkout out as an argument:
 
 ```
-cookiecutter https://github.com/openregister/demo-cookiecutter.git
+cookiecutter demo-cookiecutter
+```
+
+You also run the cookiecutter with the git repo as an argument:
+
+```
+cookiecutter git@github.com:openregister/demo-cookie-cutter.git
 ```
 
 You will be prompted for the name of your application. Don't use any kebab-case names and that would result in an invalid python module name. Use single words or snake case, e.g. schoolfinder or school_finder.
