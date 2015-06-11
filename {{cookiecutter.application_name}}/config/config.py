@@ -9,7 +9,7 @@ class Config(object):
 class DevelopmentConfig(Config):
     DEBUG = True
     WTF_CSRF_ENABLED = False
-     SECRET_KEY = os.environ.get('local-dev-not-secret')
+    SECRET_KEY = os.environ.get('local-dev-not-secret')
 
 class TestConfig(Config):
     TESTING = True
