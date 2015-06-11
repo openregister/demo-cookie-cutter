@@ -1,2 +1,2 @@
 # set runtime for heroku
-python-3.4.2
+python-3.4
