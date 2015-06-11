@@ -1332,3 +1332,7 @@ ol {
     .icon-step-13 {
       background-image: url("/public/images/icons/icon-steps/icon-step-13-2x.png");
       background-size: 100%; } }
+
+.copyright span {
+  margin-right: 5px;
+}
