@@ -48,15 +48,10 @@ Install python requirements.
 pip install -r requirements/dev.txt
 ```
 
-Set some environment variables. The following is required. Add as needed.
+Set some environment variables, and run the app:
 
 ```
-export SETTINGS='config.DevelopmentConfig'
-```
-
-Once that this all done you can:
-
-```
+source environment.sh
 python manage.py server
 ```
 
