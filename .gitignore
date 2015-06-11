@@ -45,5 +45,3 @@ docs/_build
 # Cookiecutter
 output/
 
-bower_components
-vendor

@@ -47,6 +47,3 @@ docs/_build
 env
 env*
 
-# Bower installed vendor libs
-bower_components
-vendor
