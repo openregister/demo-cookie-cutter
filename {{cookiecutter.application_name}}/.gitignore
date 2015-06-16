@@ -43,7 +43,4 @@ docs/_build
 
 .webassets-cache
 
-# Virtualenvs
-env
-env*
 

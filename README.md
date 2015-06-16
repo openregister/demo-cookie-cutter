@@ -48,11 +48,10 @@ Install python requirements.
 pip install -r requirements/dev.txt
 ```
 
-Set some environment variables, and run the app:
+Run the app:
 
 ```
-source environment.sh
-python manage.py server
+./run.sh
 ```
 
 and have a look at http://localhost:8000
