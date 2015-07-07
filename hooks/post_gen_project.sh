@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "do something!"
+echo "now get on and do something!"
