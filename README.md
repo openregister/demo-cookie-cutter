@@ -16,7 +16,7 @@ mkvirtualenv cookiecutter
 pip install cookiecutter
 ```
 
-Clone the repo and then run cookiecutter with the directory you checkout out as an argument:
+Clone the repo and then run cookiecutter with the directory you just checked out as an argument:
 
 ```
 cookiecutter demo-cookiecutter
