@@ -1,20 +1,22 @@
 demo-cookie-cutter
 ==================
 
-A template for flask applications using [cookiecutter](https://github.com/audreyr/cookiecutter). This cookie cutter template has been very heavily influenced by [cookiecutter-flask](https://github.com/sloria/cookiecutter-flask)
+A template for a python3 flask application using [cookiecutter](https://github.com/audreyr/cookiecutter). This cookie cutter template has been very heavily influenced by [cookiecutter-flask](https://github.com/sloria/cookiecutter-flask)
 
 ####Prerequisites
 
-1. Python (2 or 3)
+1. Python 3
+2. Virtualenv and VirtualenvWrapper
 
 
 ####How to use it
 
 Install cookiecutter (in it's own virtualenv would be a smashing idea)
 ```
-mkvirtualenv cookiecutter
+mkvirtualenv  --python=/path/to/required/python3 cookiecutter
 pip install cookiecutter
 ```
+
 
 Clone the repo and then run cookiecutter with the directory you just checked out as an argument:
 
@@ -28,9 +30,9 @@ You also run the cookiecutter with the git repo as an argument:
 cookiecutter git@github.com:openregister/demo-cookie-cutter.git
 ```
 
-You will be prompted for the name of your application. Don't use any kebab-case names and that would result in an invalid python module name. Use single words or snake case, e.g. schoolfinder or school_finder.
+You will be prompted for the name of your application. Don't use a kebab-case name as that would result in an invalid python module name. Use single words or snake case, e.g. schoolfinder or school_finder.
 
-The cookiecutter will create a directory for your app with the name you answered and in there you will find a simple skeleton app with a base govuk template and stylesheets. The rest is up to you.
+The cookiecutter will create a directory for your app with the name you answered and in that directory you will find a simple skeleton app with a base govuk template and stylesheets. The rest is up to you.
 
 
 ####What happens next
@@ -40,7 +42,7 @@ deactivate cookiecutter virtual env, cd into the newly create directory for the 
 Create a virtualenv for your *newly* created app
 
 ```
-mkvirtualenv --python=/path/to/required/python/version [appname]
+mkvirtualenv --python=/path/to/required/python3 [appname]
 ```
 
 Install python requirements.
